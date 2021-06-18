@@ -24,7 +24,12 @@ function Navigation() {
           <CgProfile /> Login
         </Button>
         <br></br>
-        <input type="text" placeholder="Search Here..." className="Input" />
+        <input
+          type="text"
+          aria-label="Search Here..."
+          placeholder="Search Here.."
+          className="Input"
+        />
         <Button className="Searchicon" onClick={() => console.log("Search")}>
           <FaSearch />
         </Button>
