@@ -4,25 +4,35 @@ import "./Home.css";
 function Home() {
   return (
     <div className="Maindiv">
-      <div>
+      <div className="Onecard">
         <img
           src={process.env.PUBLIC_URL + "/1stcard.jpg"}
           alt="Onecard"
-          className="Onecard"></img>
+          className="Image1stcard"></img>
       </div>
       <div className="Image1">
-        <h1 className="Texth1">About Us</h1>
-        <h1 className="Learnmore">
-          Learning Together<br></br>
-          From the Comfort
-          <br></br>
-          of Your Home
-        </h1>
-        <img
-          src={process.env.PUBLIC_URL + "/About.jpg"}
-          alt="About"
-          className="Imageabout"></img>
-        <Button className="Learnbutton">Learn More</Button>
+        <div className="Texth1">
+          <h1 className="H1text">About Us</h1>
+        </div>
+        <div className="Learnmore">
+          <div className="Gridlearnset">
+            <h1 className="Learnmoretext">
+              Learning Together<br></br>
+              From the Comfort
+              <br></br>
+              of Your Home
+            </h1>
+          </div>
+          <div className="Gridlearnbutton">
+            <Button className="Learnbutton">Learn More</Button>
+          </div>
+        </div>
+        <div className="AboutImage">
+          <img
+            src={process.env.PUBLIC_URL + "/About.jpg"}
+            alt="About"
+            className="Imageabout"></img>
+        </div>
       </div>
       <div className="Nextbigcard">
         {/* <img

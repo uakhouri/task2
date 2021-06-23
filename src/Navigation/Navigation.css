@@ -1,5 +1,107 @@
+.Mainnav {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  grid-template-rows: repeat(2, max-content);
+  grid-row-gap: 10px;
+  grid-column-gap: 250px;
+}
+.Heading {
+  /* border-style: solid;
+  border-color: black; */
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 1/2;
+  /* background-color: seagreen; */
+  justify-items: center;
+  margin-top: -35px;
+}
+
+.Inputsearch {
+  /* border: none;
+  border-color: #e81038;
+  margin-top: -170px;
+  float: right;
+  margin-left: -270ex;
+  width: 30%;
+  height: 43px;*/
+  width: fit-content;
+  /* border-style: solid;
+  border-color: black; */
+  /* background-color: sienna; */
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-template-rows: repeat(2, max-content);
+  grid-row-gap: 30px;
+}
+.Imgandlink {
+  grid-row: 2/3;
+  grid-column: 1/3;
+}
 .Span {
   color: black;
+}
+.Cart {
+  border-style: solid;
+  border-color: grey;
+  /* margin: auto; */
+  grid-column: 1/2;
+  /* float: center; */
+  background-color: #e81038;
+  border-style: hidden;
+  font-size: 23px;
+  width: 100px;
+  border-radius: 30px;
+  height: 43px;
+  transition: 1s;
+}
+.Login {
+  border-style: solid;
+  /* border-color: yellow; */
+  grid-column: 2/3;
+  float: center;
+  padding-left: 20px;
+  background-color: white;
+  border-style: outset;
+  font-size: 23px;
+  border-radius: 0px;
+  box-shadow: 2px 2px 1px 1px grey;
+  width: max-content;
+  height: 43px;
+}
+.Inputinside {
+  grid-row: 2/3;
+  grid-column: 1/3;
+
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: max-content;
+  /* background-color: yellow; */
+}
+.Searchicon {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  position: relative;
+  /* top: -35px; */
+  left: -30px;
+  color: lightblue;
+  background: inherit;
+  border-style: hidden;
+}
+.Input {
+  border-style: solid;
+  border-color: blue;
+  grid-column: 1/2;
+  background-color: black;
+  color: white;
+
+  /* margin-top: 20px; */
+  width: 250px;
+  height: 43px;
+  font-size: 12px;
+  border: none;
+  border-radius: 30px;
 }
 .Header2 {
   color: #e81038;
@@ -9,23 +111,13 @@
   font-size: 43px;
   font-family: "Questrial", sans-serif;
   letter-spacing: 0.0005em;
-  margin-top: 10px;
-}
-
-.Inputsearch {
-  border: none;
-  /* border-color: #e81038; */
-  margin-top: -170px;
-  float: right;
-  margin-left: -270ex;
-  width: 30%;
-  height: 43px;
+  /* margin-top: 10px; */
 }
 
 body {
-  margin-left: 250px;
+  /* margin-left: 250px; */
   display: inline-block;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 .Imagewebp {
@@ -40,8 +132,8 @@ body {
 
 .Options {
   border-style: hidden;
-  margin-left: 200px;
-  margin-top: -10px;
+  /* margin-left: 200px;
+  margin-top: -10px; */
 }
 
 .custom-dropdown {
@@ -71,47 +163,6 @@ body {
   color: black;
 }
 
-.Cart {
-  margin: auto;
-  float: center;
-  background-color: #e81038;
-  border-style: hidden;
-  font-size: 23px;
-  width: 45%;
-  border-radius: 30px;
-  height: 43px;
-  transition: 1s;
-}
-.Login {
-  float: center;
-  margin-left: 20px;
-  background-color: white;
-  border-style: outset;
-  font-size: 23px;
-  border-radius: 0px;
-  box-shadow: 2px 2px 1px 1px grey;
-  width: 45%;
-  height: 43px;
-}
-.Input {
-  background-color: black;
-  color: white;
-
-  margin-top: 20px;
-  width: 100%;
-  height: 43px;
-  font-size: 12px;
-  border: none;
-  border-radius: 30px;
-}
-.Searchicon {
-  position: relative;
-  top: -35px;
-  left: 270px;
-  color: lightblue;
-  background: inherit;
-  border-style: hidden;
-}
 .Cart:hover {
   background-color: darkblue;
   color: white;
@@ -130,9 +181,6 @@ body {
 .Input:focus {
   border: none;
   color: black;
-}
-.Imgandlink {
-  margin-top: 70px;
 }
 
 .Menumore:link {

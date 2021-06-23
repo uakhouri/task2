@@ -4,13 +4,14 @@ import Navigation from "./Navigation/Navigation";
 import Home from "./Home/Home";
 import Courses from "./Courses/Courses";
 import Hiring from "./Hiring/Hiring";
-
+import Footer from "./Footer/Footer";
 function App() {
   return (
-    <div className="App">
-      <header>
+    <div className="Mainapp">
+      <div className="Header">
         <Navigation />
-      </header>
+      </div>
+
       <Switch>
         <Route path="/" exact={true}>
           <Home />
@@ -22,6 +23,9 @@ function App() {
           <Hiring />
         </Route>
       </Switch>
+      <div className="Footer">
+        <Footer />
+      </div>
     </div>
   );
 }

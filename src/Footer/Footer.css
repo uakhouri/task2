@@ -1,0 +1,216 @@
+.Main {
+  /* margin-left: -250px; */
+  position: absolute;
+  margin: 0px;
+  /* background-color: chartreuse; */
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: max-content, max-content;
+  grid-template-columns: repeat(3, minmax(min-content, 1fr));
+  grid-column-gap: 0px;
+  /* grid-row-gap: 30px; */
+  /* border-style: solid;
+  border-color: grey; */
+}
+.Socials {
+  /* background-color: lime; */
+  justify-items: center;
+  height: fit-content;
+  margin-left: 100px;
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.Styleicons {
+  margin-top: 50px;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.Aboutus {
+  /* background-color: red; */
+  margin-right: 100px;
+  text-align: center;
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+.Abouttext {
+  font-family: "Questrial", sans-serif;
+  font-weight: lighter;
+
+  text-shadow: 1px 1px white;
+}
+.Mainfooter {
+  /* align-content: flex-start; */
+
+  /* margin-top: -100px; */
+  width: fit-content;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  /* background-color: orchid; */
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(5, max-content);
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-row-gap: 2px;
+  justify-items: center;
+  justify-content: center;
+}
+.Centeritem {
+  /* position: relative;
+  top: 50%;
+  left: 30%; */
+
+  /* border-style: solid;
+  border-color: black; */
+  width: fit-content;
+  justify-items: center;
+  /* background-color: yellow; */
+  grid-row: 1/2;
+  grid-column: 1/-1;
+}
+.Newstext {
+  text-align: center;
+  font-style: "Questrial", sans-serif;
+}
+.stsearch {
+  float: center;
+  text-align: center;
+  font-size: 22px;
+  align-content: center;
+  /* margin-left: 1ex; */
+  /* background-color: yellow; */
+  border-color: grey;
+  /* margin-bottom: 0.5ex; */
+  font-family: "Questrial", sans-serif;
+  grid-row: 2/3;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px;
+  grid-template-rows: max-content;
+}
+.Fullname {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  font-size: 20px;
+  border-style: solid;
+  border-color: grey;
+  font-family: "Questrial", monospace;
+  box-sizing: border-box;
+}
+.College {
+  grid-column: 2/3;
+  grid-row: 1/-1;
+  font-size: 20px;
+  border-style: solid;
+  border-color: grey;
+  font-family: "Questrial", sans-serif;
+  box-sizing: border-box;
+}
+.ndsearch {
+  text-align: center;
+  font-size: 22px;
+  /* align-self: center; */
+  /* margin-left: 1ex; */
+  /* margin-bottom: 3ex; */
+
+  /* background-color: blue; */
+  grid-row: 3/4;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px;
+  grid-template-rows: max-content;
+}
+.Mobile {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  font-size: 20px;
+  border-style: solid;
+  border-color: grey;
+  font-family: "Questrial", sans-serif;
+  box-sizing: border-box;
+}
+.Email {
+  grid-column: 2/3;
+  grid-row: 1/-1;
+  /* margin: 0.25ex; */
+  font-size: 20px;
+  border-style: solid;
+  border-color: grey;
+  font-family: "Questrial", sans-serif;
+  box-sizing: border-box;
+}
+.DiscordJoin {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  width: 100%;
+  /* background-color: chocolate; */
+  display: grid;
+  grid-template-columns: 0.1fr, 1fr;
+
+  grid-template-rows: min-content;
+  justify-items: start;
+}
+
+.divInput {
+  /* justify-items: start; */
+  grid-column: 1/-1;
+
+  /* background-color: brown; */
+  /* border-style: solid;
+  border-color: black; */
+}
+.descText {
+  font-family: "Questrial", cursive;
+}
+.subButton {
+  grid-row: 5/6;
+  grid-column: 1/-1;
+}
+
+.Inputcheck {
+  color: blue;
+}
+
+.Submit {
+  color: black;
+  height: auto;
+  position: relative;
+  border-style: solid;
+  border-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  transition: 1s;
+}
+
+.Submit:hover {
+  background-color: #e31308;
+}
+.endLine {
+  /* margin-top: -2.5ex; */
+  /* background-color: coral; */
+  /* margin-left: -250px; */
+  height: 22px;
+
+  width: 100%;
+  grid-row: 2/3;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-rows: fit-content;
+  grid-template-columns: 100%;
+}
+.Endlinetext {
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+
+  background-color: orange;
+  text-align: center;
+}
+.Text {
+  font-size: 22px;
+
+  font-family: cursive;
+}
