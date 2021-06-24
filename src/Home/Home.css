@@ -166,7 +166,7 @@
   padding-right: 30px;
   color: white;
   background-image: linear-gradient(45deg, blue, violet);
-  transition: 0.1s;
+  transition: 1s;
   margin-bottom: 30px;
 }
 .Join:hover {
@@ -175,4 +175,213 @@
 .Walking {
   position: relative;
   width: 1230px;
+}
+
+.Threedivs {
+  background-color: blueviolet;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr;
+}
+.Ourcourses {
+  grid-column: 1/-1;
+
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr;
+  background-color: brown;
+}
+.Divimage {
+  background-image: url("./Div1.jpg");
+  background-size: contain;
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  background-color: cadetblue;
+  text-align: center;
+}
+.Entretext {
+  background-color: rgb(216, 5, 63);
+  grid-column: 2/3;
+  grid-row: 1/-1;
+  text-align: center;
+}
+.Journeytext {
+  text-align: start;
+  padding-left: 30px;
+  font-size: 58px;
+  font-weight: bold;
+  color: #e31308;
+  font-family: "Questrial", sans-serif;
+}
+.Madefun {
+  font-family: questrial, sans-serif;
+  font-size: 32px;
+  color: white;
+  font-weight: 550;
+}
+.Explorebutton {
+  margin-top: 30px;
+  font-size: 24px;
+  border-style: hidden;
+  border-radius: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: white;
+  background-color: black;
+  transition: 1s;
+}
+.Explorebutton:hover {
+  background-color: #e31308;
+}
+.Digital {
+  background-color: royalblue;
+  grid-row: 2/3;
+  grid-column: 1/-1;
+  display: grid;
+
+  grid-template-rows: fit-content;
+  grid-template-columns: repeat(2, 50%);
+  gap: 0px;
+}
+.Digimage1 {
+  /* background-color: #e31308; */
+  background-image: url("/src/Home/Divimage1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 1/2;
+  grid-row: 1/-1;
+}
+.dig {
+  background-color: seagreen;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+}
+.Digtext {
+  padding: 10px;
+  margin: 0px;
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  display: grid;
+  /* width: max-content;   */
+  grid-template-rows: fit-content fit-content;
+  background-color: rgb(216, 5, 63);
+  justify-content: center;
+}
+.Textdig {
+  grid-row: 1/2;
+  font-size: 23px;
+  text-align: center;
+  color: white;
+  font-family: "Questrial", sans-serif;
+  text-decoration: underline;
+  padding-top: 30px;
+}
+.Digimage2 {
+  /* background-color: salmon; */
+  background-image: url("/src/Home/Divimage2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 2/3;
+  /* grid-row: 1/-1; */
+  width: 100%;
+}
+.Imagedig2 {
+  width: 245px;
+}
+
+.Explorebutton2 {
+  grid-row: 2/3;
+  /* margin-top: 30px; */
+  font-size: 24px;
+  border-style: hidden;
+  border-radius: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: white;
+  background-color: black;
+  transition: 1s;
+  height: fit-content;
+}
+.Explorebutton2:hover {
+  background-color: #e31308;
+}
+
+.Product {
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+}
+.Protext {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  justify-content: center;
+  background-color: rgb(216, 5, 63);
+}
+.PText {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Questrial", sans-serif;
+  padding-top: 30px;
+}
+.Explorebutton3 {
+  grid-row: 2/3;
+  /* margin-top: 30px; */
+  font-size: 24px;
+  border-style: hidden;
+  border-radius: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: white;
+  background-color: black;
+  transition: 1s;
+  height: fit-content;
+}
+.Explorebutton3:hover {
+  background-color: #e31308;
+}
+
+.Proimage {
+  grid-column: 2/3;
+  grid-row: 1/-1;
+  background-image: url("/src/Home/Proimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Benefits {
+  background-color: lightgrey;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.Teachers {
+  grid-column: 1/2;
+
+  justify-items: center;
+  text-align: center;
+  width: min-content;
+}
+.Community {
+  grid-column: 2/3;
+}
+.Curriculum {
+  grid-column: 3/4;
+}
+.Iconscourse {
+  width: 200px;
+  height: 200px;
+  font-weight: lighter;
 }
