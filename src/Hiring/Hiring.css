@@ -1,0 +1,164 @@
+.HMain {
+  margin: 9%;
+  margin-top: 20px !important;
+  background-color: khaki;
+  display: grid;
+  grid-template-columns: 100%;
+
+  grid-template-rows: fit-content 50%;
+
+  height: auto;
+}
+.Hiringmain {
+  /* background-color: chartreuse; */
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: fit-content;
+  grid-template-rows: repeat(2, fit-content);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/Home/Divimage2.jpg");
+  /* filter: brightness(70%); */
+  background-blend-mode: inherit;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: white;
+  font-family: "Questrial", sans-serif;
+  text-emphasis-color: white;
+  word-spacing: 20%;
+  padding-bottom: 10px;
+}
+
+.H2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.Certificate {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+
+  /* text-align: center; */
+}
+p,
+.H4,
+.H5 {
+  width: 70%;
+  padding-left: 120px;
+}
+.H5 {
+  font-size: 16px;
+}
+.H4 {
+  line-height: 200%;
+}
+.Subtext {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  /* background-color: brown; */
+}
+.Barcode {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  /* background-color: blue; */
+  background-image: url("/src/Hiring/Barcode.jpg") !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 5%;
+}
+.Application {
+  background-color: red;
+  background-image: url("/src/Hiring/Application.jpg");
+
+  filter: grayscale(100%);
+  filter: saturate(20%);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-row: 2/3;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 2px;
+  grid-template-rows: repeat(6, fit-content);
+  justify-items: center;
+}
+.Maintext {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
+.H21 {
+  text-align: center;
+  color: #373b4d;
+  font-family: "Questrial", sans-serif;
+}
+.Ptag1 {
+  /* text-align: center; */
+  margin-top: -20px;
+}
+.Inputbars {
+  /* background-color: hotpink; */
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  text-align: center;
+
+  width: auto;
+  font-size: 23px;
+}
+.Inputbars2 {
+  /* background-color: indianred; */
+  grid-column: 1/-1;
+  grid-row: 3/4;
+  width: auto;
+  font-size: 23px;
+  text-align: center;
+  margin-left: -28px;
+}
+.Inputbars3 {
+  margin-left: -18px;
+  /* background-color: indigo; */
+  grid-column: 1/-1;
+  grid-row: 4/5;
+  text-align: center;
+  width: auto;
+  font-size: 23px;
+}
+.Inputbars4 {
+  grid-column: 1/-1;
+  grid-row: 5/6;
+  width: auto;
+  text-align: center;
+  font-size: 23px;
+  margin-left: -80px;
+}
+.Labeltext {
+  font-size: 15px;
+}
+.Selectbox {
+  width: 150%;
+  height: 25%;
+}
+.SubButton {
+  /* background-color: indigo; */
+  grid-column: 1/-1;
+  grid-row: 6/7;
+  margin: 10px;
+  width: 65%;
+  margin-bottom: 40px;
+}
+.Nextbutton {
+  filter: saturate(100%) !important;
+  float: right;
+  width: 15%;
+  border-radius: 35%;
+  height: 150%;
+}
+.Nextbutton:hover {
+  background-color: rgb(114, 228, 114) !important;
+  filter: saturate(100);
+  color: white;
+}

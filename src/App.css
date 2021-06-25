@@ -7,7 +7,7 @@
   justify-items: center;
   /* background-color: red; */
   display: grid;
-  align-content: center;
+  /* align-content: center; */
   grid-template-rows: repeat(3, max-content);
   grid-template-columns: 1fr;
   grid-auto-rows: max-content;
