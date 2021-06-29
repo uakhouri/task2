@@ -28,16 +28,16 @@ function Hiring() {
             Scan the QR code to complete your payment and submit the below
             application form to start with your registration process.
           </h5>
-          <p>
+          <p className="Ptag1">
             Please keep the payment transaction ID handy for submitting the
             form.
           </p>
-          <p>
+          <p className="Ptag1">
             Note: This internship does not offer an opportunity to earn money,
             rather helps an individual grow by working on the job and earn a
             certificate upon successful completion.
           </p>
-          <p>
+          <p className="Ptag1">
             Check out few of our open internship positions below Refer the
             application form for more open positions
           </p>

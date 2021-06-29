@@ -47,7 +47,7 @@ function Navigation() {
           <span>
             {Menuitems.map((list, i) => (
               <>
-                <Link className="Menuheader" to={list.url}>
+                <Link key={i} className="Menuheader" to={list.url}>
                   {list.title}
                 </Link>
               </>

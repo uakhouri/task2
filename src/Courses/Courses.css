@@ -1,0 +1,15 @@
+.Maincourse {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  /* background-color: brown; */
+}
+.Sliderdiv {
+  width: 50%;
+  height: 50%;
+  background-color: blue;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+}

@@ -1,4 +1,14 @@
+import "./Courses.css";
+
+import Slider from "../Home/Slider/Slider";
+
 function Courses() {
-  return <div>Courses Page Loaded</div>;
+  return (
+    <div className="Maincourse">
+      <div>
+        <Slider />
+      </div>
+    </div>
+  );
 }
 export default Courses;
