@@ -47,3 +47,11 @@ function Slider() {
 }
 
 export default Slider;
+
+/*
+<script>
+import statement
+function name(){
+  
+}
+ */

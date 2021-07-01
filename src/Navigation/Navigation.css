@@ -143,7 +143,7 @@ body {
   font-family: "Questrial", sans-serif;
 }
 
-.Menuheader {
+.Link {
   display: inline-block;
   font-size: 30px;
   margin-right: 30px;
@@ -151,6 +151,7 @@ body {
   font-family: "Questrial", sans-serif;
   font-weight: lighter;
   color: black;
+  text-decoration: none;
 }
 
 .Menumore {
@@ -190,7 +191,10 @@ body {
 .Menuheader:link {
   text-decoration: none;
 }
-.Menuheader:hover {
+.Link:focus {
+  color: #e81038;
+}
+.Link:hover {
   color: #e81038;
 }
 .Menuheader:active {
@@ -205,4 +209,13 @@ body {
 
 .NavDropDownProps {
   color: #e81038;
+}
+.Menu-active {
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 30px;
+  line-height: 40px;
+  font-family: "Questrial", sans-serif;
+  font-weight: lighter;
+  color: red;
 }

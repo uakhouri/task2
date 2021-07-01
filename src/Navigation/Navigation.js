@@ -45,13 +45,16 @@ function Navigation() {
           className="Imagewebp"></img>
         <div className="Options">
           <span>
-            {Menuitems.map((list, i) => (
-              <>
-                <Link key={i} className="Menuheader" to={list.url}>
-                  {list.title}
-                </Link>
-              </>
-            ))}
+            {Menuitems.map((list, i) => {
+              console.log(list);
+              return (
+                <>
+                  <Link key={i} className="Link" to={list.url}>
+                    {list.title}
+                  </Link>
+                </>
+              );
+            })}
           </span>
         </div>
       </div>
