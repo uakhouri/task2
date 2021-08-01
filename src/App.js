@@ -4,6 +4,7 @@ import Navigation from "./Navigation/Navigation";
 import Home from "./Home/Home";
 import Courses from "./Courses/Courses";
 import Hiring from "./Hiring/Hiring";
+import More from "./More/More";
 import Footer from "./Footer/Footer";
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route path="/hiring">
           <Hiring />
+        </Route>
+        <Route path="/more">
+          <More />
         </Route>
       </Switch>
       <div className="Footer">

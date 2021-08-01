@@ -14,4 +14,9 @@ export const Menuitems = [
     title: "We're Hiring",
     url: "/hiring",
   },
+  {
+    id: 3,
+    title: "More",
+    url: "/more",
+  },
 ];
