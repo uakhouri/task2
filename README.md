@@ -1,4 +1,4 @@
-#Task 2 Replica of TEN's Website
+# Task 2 Replica of TEN's Website
 ###Submitted by Utkarsh Akhouri
 ##Steps for running the Application
 Download the code files
